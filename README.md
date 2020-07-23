@@ -8,7 +8,7 @@
 
 #### 📫 How to reach me: <br /> <br />
 [<img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg" width="3.5%"/>](https://steamcommunity.com/id/mongocds/)
-[<img src="https://raw.githubusercontent.com/anuraghazra/anuraghazra/master/assets/discord-round.svg" width="3.5%"/>](https://discord.gg/6aFVxq)
+[<img src="https://raw.githubusercontent.com/anuraghazra/anuraghazra/master/assets/discord-round.svg" width="3.5%"/>](https://discord.gg/MnUUbHe)
 [<img src="https://img.icons8.com/color/48/000000/twitter.png" width="3.5%"/>](https://twitter.com/sciencepal)
 [<img src="https://img.icons8.com/color/48/000000/linkedin.png" width="3.5%"/>](https://www.linkedin.com/in/adityapal1/)
 [<img src="https://img.icons8.com/fluent/48/000000/facebook-new.png" width="3.5%"/>](https://www.facebook.com/sciencepal/)
