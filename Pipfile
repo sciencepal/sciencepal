@@ -1,0 +1,27 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+black = "*"
+
+[packages]
+requests = "==2.24.0"
+beautifulsoup4 = "==4.6.3"
+certifi = "==2020.6.20"
+chardet = "==3.0.4"
+idna = "==2.10"
+urllib3 = "==1.25.9"
+wrapt = "==1.12.1"
+PyGithub = "==1.51"
+Deprecated = "==1.2.10"
+PyJWT = "==1.7.1"
+asciichartpy = "==1.5.24"
+
+[requires]
+python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true
