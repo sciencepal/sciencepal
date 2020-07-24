@@ -43,7 +43,7 @@
   ##### Here is an ascii tracker of my 100 previous chess.com blitz games.
 
   ```
-  # Ratings Chart #
+  # ♟︎ Chess.com Ratings Chart #
   
   Blitz Rating
 
