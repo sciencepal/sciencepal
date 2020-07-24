@@ -75,9 +75,10 @@ jobs:
           cat <<'```' | tee -a README.md
             
             ```
-      - run: TZ=IST-5:30
-      - run: currentDate=`date`
-      - run: echo "Chart last updated - ${currentDate}" >> README.md
+      - run: |
+          TZ=IST-5:30
+          currentDate=`date`
+          echo "Chart last updated - ${currentDate}" >> README.md
       - id: changed
         run: git diff --exit-code
         continue-on-error: true
