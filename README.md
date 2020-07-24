@@ -6,7 +6,7 @@
   - 😄 Pronouns: He / Him
   - ⚡ Fun fact: My name is an anagram of "I Play Data"
   
-  #### 📫 How to reach me: <br /> <br />
+  #### 📫 How to reach me:   
   [<img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg" width="3.5%"/>](https://steamcommunity.com/id/mongocds/)
   [<img src="https://raw.githubusercontent.com/anuraghazra/anuraghazra/master/assets/discord-round.svg" width="3.5%"/>](https://discord.gg/MnUUbHe)
   [<img src="https://img.icons8.com/color/48/000000/twitter.png" width="3.5%"/>](https://twitter.com/sciencepal)
@@ -17,7 +17,7 @@
   
   <br />
   
-  #### 👨🏻‍💻 Languages and Tools <br /> <br />
+  #### 👨🏻‍💻 Languages and Tools <br />
   <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png"></code>
   <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
   <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/django/django.png"></code>
@@ -70,3 +70,4 @@
  1350.00  ┤                                                                                              ╰╯ ╰╯
   
   ```
+Chart last updated - 
