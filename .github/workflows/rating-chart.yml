@@ -73,7 +73,7 @@ jobs:
       - run: cat chart.txt >> README.md
       - run: |
           currentDate=`env TZ=Asia/Kolkata date`
-          echo "Chart last updated - ${currentDate}" >> README.md
+          printf "\nChart last updated - ${currentDate}" >> README.md
       - run: |
           cat <<'```' | tee -a README.md
             
