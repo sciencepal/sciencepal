@@ -1,4 +1,4 @@
-  ### Hello World!  <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="29px">
+  ### Hello World!  <img src="https://github.com/sciencepal/sciencepal/blob/master/Hi.gif" width="29px">
   
   - 🔭 I’m currently working in Goldman Sachs as a Software Developer
   - 🌱 I’m currently learning Machine Learning, Deep Learning and Big Data
@@ -8,7 +8,7 @@
   
   #### 📫 How to reach me:   
   [<img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg" width="3.5%"/>](https://steamcommunity.com/id/mongocds/)
-  [<img src="https://raw.githubusercontent.com/anuraghazra/anuraghazra/master/assets/discord-round.svg" width="3.5%"/>](https://discord.gg/MnUUbHe)
+  [<img src="https://github.com/sciencepal/sciencepal/blob/master/discord-round.svg" width="3.5%"/>](https://discord.gg/MnUUbHe)
   [<img src="https://img.icons8.com/color/48/000000/twitter.png" width="3.5%"/>](https://twitter.com/sciencepal)
   [<img src="https://img.icons8.com/color/48/000000/linkedin.png" width="3.5%"/>](https://www.linkedin.com/in/adityapal1/)
   [<img src="https://img.icons8.com/fluent/48/000000/facebook-new.png" width="3.5%"/>](https://www.facebook.com/sciencepal/)
@@ -63,5 +63,5 @@
  1355.29  ┤                                                                                        ││ ││
  1350.00  ┤                                                                                        ╰╯ ╰╯
 
-Chart last updated - Fri Jul 24 21:12:27 IST 2020  
+Chart last updated - Fri Jul 24 21:13:35 IST 2020  
   ```
