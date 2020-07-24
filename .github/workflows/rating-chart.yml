@@ -72,12 +72,12 @@ jobs:
       - run: printf "\n" >> README.md
       - run: cat chart.txt >> README.md
       - run: |
+          currentDate=`env TZ=Asia/Kolkata date`
+          echo "Chart last updated - ${currentDate}" >> README.md
+      - run: |
           cat <<'```' | tee -a README.md
             
             ```
-      - run: |
-          currentDate=`env TZ=Asia/Kolkata date`
-          echo "######Chart last updated - ${currentDate}" >> README.md
       - id: changed
         run: git diff --exit-code
         continue-on-error: true
