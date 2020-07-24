@@ -76,8 +76,7 @@ jobs:
             
             ```
       - run: |
-          TZ=IST-5:30
-          currentDate=`date`
+          currentDate=`env TZ=Asia/Kolkata date`
           echo "Chart last updated - ${currentDate}" >> README.md
       - id: changed
         run: git diff --exit-code
