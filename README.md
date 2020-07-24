@@ -70,4 +70,4 @@
  1350.00  ┤                                                                                              ╰╯ ╰╯
   
   ```
-Chart last updated - Fri Jul 24 07:13:30 UTC 2020
+Chart last updated - Fri Jul 24 12:46:37 IST 2020
