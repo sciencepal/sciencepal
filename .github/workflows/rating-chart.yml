@@ -20,7 +20,6 @@ jobs:
           python rating_chart.py > chart.txt
           CHART=$(cat chart.txt)
           echo "::set-output name=chart::$CHART"
-      - run: echo "$CHART"
       - run: |
           cat <<'Blitz Rating' | tee README.md
             ### Hello World!  <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="29px">
@@ -68,7 +67,7 @@ jobs:
             ##### Here is an ascii tracker of my 100 previous chess.com blitz games.
 
             ```
-            # Ratings Chart #
+            # ♟︎ Chess.com Ratings Chart #
             
             Blitz Rating
       - run: printf "\n" >> README.md
