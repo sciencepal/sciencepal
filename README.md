@@ -39,8 +39,8 @@
   
   <br />
   
-  ### I am currently aiming to reach 1500 rating on chess.com Blitz ⚡.
-  ### Here is an ascii tracker of my 100 previous chess.com blitz games. (Updates every hour via workflows 😄)
+  # I am currently aiming to reach ELO 1500 rating on chess.com Blitz ⚡.
+  # Here is an ascii tracker of my 100 previous chess.com blitz games. (Updates every hour via workflows 😄)
 
   ```
   # Ratings Chart #
