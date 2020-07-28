@@ -1,4 +1,5 @@
   ### Hello World!  <img src="https://github.com/sciencepal/sciencepal/blob/master/Hi.gif" width="29px">
+  [![Visits Badge](https://badges.pufler.dev/visits/sciencepal/sciencepal)](https://badges.pufler.dev/visits/sciencepal/sciencepal)
   
   - 🔭 I’m currently working in Goldman Sachs as a Software Developer
   - 🌱 I’m currently learning Machine Learning, Deep Learning and Big Data
@@ -63,5 +64,5 @@
  1356.05  ┤                                                     ╰╯ ╰╯
  1350.00  ┤
 
-Chart last updated - Tue Jul 28 21:32:51 IST 2020  
+Chart last updated - Tue Jul 28 21:45:47 IST 2020  
   ```
