@@ -2,8 +2,8 @@
   [![Visits Badge](https://badges.pufler.dev/visits/sciencepal/sciencepal)](https://badges.pufler.dev)
   
   - 🔭 I’m currently working in Goldman Sachs as a Software Developer
-  - 🌱 I’m currently learning Machine Learning, Deep Learning and Big Data
-  - 💬 Ask me about technology
+  - 🌱 I’m currently learning Machine Learning and Big Data
+  - 💬 Ask me about multiplayer FPS gaming, chess and Tintin comics
   - 😄 Pronouns: He / Him
   - ⚡ Fun fact: My name is an anagram of "I Play Data"
   
@@ -64,6 +64,6 @@
  1356.05  ┤                                                     ╰╯ ╰╯
  1350.00  ┤
 
-Chart last updated - Tue Jul 28 22:11:40 IST 2020  
+Chart last updated - Tue Jul 28 22:19:50 IST 2020  
   ```
   
