@@ -1,5 +1,5 @@
   ### Hello World!  <img src="https://github.com/sciencepal/sciencepal/blob/master/Hi.gif" width="29px">
-  [![Visits Badge](https://badges.pufler.dev/visits/sciencepal/sciencepal)](https://badges.pufler.dev)
+  [![Visits Badge](https://badges.pufler.dev/visits/sciencepal/sciencepal)](https://badges.pufler.dev/visits/sciencepal/sciencepal)
   
   - 🔭 I’m currently working in Goldman Sachs as a Software Developer
   - 🌱 I’m currently learning Machine Learning and Big Data
