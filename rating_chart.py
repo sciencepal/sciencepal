@@ -36,7 +36,7 @@ def get_ratings_from_games(games: list) -> list:
             ratings.append(game['white']['rating'])
         else:
             ratings.append(game['black']['rating'])
-    return ratings
+    return ratings[::-1]
 
 def get_current_rating() -> int:
     pass
@@ -50,8 +50,8 @@ def main():
         if len(final_games) >= NGAMES:
             break
     final_games = final_games[:NGAMES]
-    ratings_list = get_ratings_from_games(final_games)[::-1]
-    return (ac.plot(ratings_list, {'height': 20}))
+    ratings_list = get_ratings_from_games(final_games)
+    return (ac.plot(ratings_list, {'height': 15}))
 
 
 if __name__ == "__main__":
