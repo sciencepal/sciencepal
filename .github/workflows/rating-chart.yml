@@ -29,13 +29,22 @@ jobs:
       - id: changed
         run: git diff --exit-code
         continue-on-error: true
+      - name: Commit changes
       - if: ${{ steps.changed.outcome == 'failure' }}
-        run: |
-          git add README.md
-          git config --local user.name "GitHub Action"
-          git config --local user.email action@github.com
-          git commit --message 'Update README.md'
-      - if: ${{ steps.changed.outcome == 'failure' }}
-        uses: ad-m/github-push-action@master
+        uses: EndBug/add-and-commit@v4
         with:
-          github_token: ${{ github.token }}
+          author_name: Aditya Pal
+          author_email: aditya.pal.science@gmail.com
+          message: "Auto updating my readme!"
+          add: "README.md"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#         run: |
+#           git add README.md
+#           git config --local user.name "GitHub Action"
+#           git config --local user.email action@github.com
+#           git commit --message 'Update README.md'
+#       - if: ${{ steps.changed.outcome == 'failure' }}
+#         uses: ad-m/github-push-action@master
+#         with:
+#           github_token: ${{ github.token }}
