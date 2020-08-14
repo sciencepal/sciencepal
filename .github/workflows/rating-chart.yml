@@ -43,6 +43,7 @@ jobs:
           author_email: aditya.pal.science@gmail.com
           message: "Auto updating my readme and workflow!"
           add: "README.md .github/workflows/rating-chart.yml"
+          force: true
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 #         run: |
