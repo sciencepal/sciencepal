@@ -3,7 +3,7 @@ import random
 
 class SafeDict(dict):
   def __missing__(self, key):
-    if key.strip() != key:
+    if '.' in key:
       return '{{' + key + '}}'
     return '{' + key + '}'
 
