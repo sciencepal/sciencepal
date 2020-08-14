@@ -3,6 +3,8 @@ import random
 
 class SafeDict(dict):
   def __missing__(self, key):
+    if key.strip() != key:
+      return '{{' + key + '}}'
     return '{' + key + '}'
 
 with open("workflow.txt", "r") as f:
