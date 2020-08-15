@@ -2,6 +2,9 @@ name: Update Readme.md with chess.com ascii graph
 on:
   push:
     branches: master
+    paths-ignore:
+      - README.md
+      - .github/workflows/rating-chart.yml
   schedule:
     - cron: "0 */{random_number} * * *"
 jobs:
@@ -10,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
         with:
-          token: ${{ secrets.GH_TOKEN }}
+          token: ${{ secrets.GH_TOKEN_1 }}
         name: Setup Python
       - uses: actions/setup-python@v2
         with:
@@ -43,8 +46,9 @@ jobs:
         with:
           author_name: Aditya Pal
           author_email: aditya.pal.science@gmail.com
-          message: "Auto updating my readme and workflow!"
+          message: "Auto updating my readme!"
           add: "README.md .github/workflows/rating-chart.yml"
-          force: true
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN_1 }}
+
