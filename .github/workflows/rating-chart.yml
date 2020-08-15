@@ -9,6 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
+        with:
+          repo-token: ${{ secrets.GH_TOKEN }}
         name: Setup Python
       - uses: actions/setup-python@v2
         with:
@@ -63,4 +65,4 @@ jobs:
       - if: ${{ steps.changed.outcome == 'failure' }}
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.GH_TOKEN }}
+          repo-token: ${{ secrets.GH_TOKEN }}
