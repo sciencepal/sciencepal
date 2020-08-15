@@ -8,7 +8,6 @@ jobs:
   ratings-chart:
     runs-on: ubuntu-latest
     steps:
-      - name: Setup Repo
       - uses: actions/checkout@master
         with:
           token: ${{ secrets.GH_TOKEN }}
@@ -40,24 +39,24 @@ jobs:
         continue-on-error: true
         name: Commit changes
       - if: ${{ steps.changed.outcome == 'failure' }}
-#         run: |
-#           git add README.md
-#           git config --local user.name "Aditya Pal"
-#           git config --local user.email aditya.pal.science@gmail.com
-#           git commit --message 'Auto updating my readme and workflow!'
-#           git push -u origin master
-#           git add .github/workflows/rating-chart.yml
-#           git commit --message 'Auto updating my readme and workflow!'
-#           git push
-        uses: EndBug/add-and-commit@v4
-        with:
-          author_name: Aditya Pal
-          author_email: aditya.pal.science@gmail.com
-          message: "Auto updating my readme and workflow!"
-          add: "README.md .github/workflows/rating-chart.yml"
-          force: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          git add README.md
+          git config --local user.name "Aditya Pal"
+          git config --local user.email aditya.pal.science@gmail.com
+          git commit --message 'Auto updating my readme and workflow!'
+          git push -u origin master
+          git add .github/workflows/rating-chart.yml
+          git commit --message 'Auto updating my readme and workflow!'
+          git push
+#         uses: EndBug/add-and-commit@v4
+#         with:
+#           author_name: Aditya Pal
+#           author_email: aditya.pal.science@gmail.com
+#           message: "Auto updating my readme and workflow!"
+#           add: "README.md .github/workflows/rating-chart.yml"
+#           force: true
+#         env:
+#           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 #         run: |
 #           git add README.md
 #           git config --local user.name "GitHub Action"
