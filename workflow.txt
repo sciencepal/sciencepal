@@ -46,7 +46,7 @@ jobs:
         with:
           author_name: Aditya Pal
           author_email: aditya.pal.science@gmail.com
-          message: "Auto updating my readme!"
+          message: "Auto updating my readme and workflow timing!"
           add: "README.md .github/workflows/rating-chart.yml"
         env:
 #          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
