@@ -8,16 +8,17 @@ jobs:
   ratings-chart:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repo
       - uses: actions/checkout@master
         with:
-          repo-token: ${{ secrets.GH_TOKEN }}
-        name: Setup Python
+          token: ${{ secrets.GH_TOKEN }}
+      - name: Setup Python
       - uses: actions/setup-python@v2
         with:
           python-version: 3.7
         name: Install dependencies
       - run: pip install -r requirements.txt
-        name: Create Chart
+      - name: Create Chart
       - run: |
           python rating_chart.py > chart.txt
           CHART=$(cat chart.txt)
@@ -28,7 +29,7 @@ jobs:
           currentDate=`env TZ=Asia/Kolkata date`
           printf "\nChart last updated - ${currentDate}" >> README.md
       - run: cat README-2.md >> README.md
-        name: Update workflow yaml file
+      - name: Update workflow yaml file
       - run: |
           python generate_random_workflow.py > rating-yaml.txt
           YAML=$(cat rating-yaml.txt)
@@ -48,20 +49,20 @@ jobs:
 #           git add .github/workflows/rating-chart.yml
 #           git commit --message 'Auto updating my readme and workflow!'
 #           git push
-#         uses: EndBug/add-and-commit@v4
-#         with:
-#           author_name: Aditya Pal
-#           author_email: aditya.pal.science@gmail.com
-#           message: "Auto updating my readme and workflow!"
-#           add: "README.md .github/workflows/rating-chart.yml"
-#           force: true
-#         env:
-#           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: |
-          git add README.md
-          git config --local user.name "GitHub Action"
-          git config --local user.email action@github.com
-          git commit --message 'Update README.md'
+        uses: EndBug/add-and-commit@v4
+        with:
+          author_name: Aditya Pal
+          author_email: aditya.pal.science@gmail.com
+          message: "Auto updating my readme and workflow!"
+          add: "README.md .github/workflows/rating-chart.yml"
+          force: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+#         run: |
+#           git add README.md
+#           git config --local user.name "GitHub Action"
+#           git config --local user.email action@github.com
+#           git commit --message 'Update README.md'
       - if: ${{ steps.changed.outcome == 'failure' }}
         uses: ad-m/github-push-action@master
         with:
