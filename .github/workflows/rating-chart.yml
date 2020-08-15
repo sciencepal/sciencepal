@@ -3,14 +3,14 @@ on:
   push:
     branches: master
   schedule:
-    - cron: "0 */1 * * *"
+    - cron: "0 */3 * * *"
 jobs:
   ratings-chart:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-        with:
-          token: ${{ secrets.GH_TOKEN }}
+#        with:
+#          token: ${{ secrets.GH_TOKEN }}
         name: Setup Python
       - uses: actions/setup-python@v2
         with:
@@ -28,12 +28,12 @@ jobs:
           currentDate=`env TZ=Asia/Kolkata date`
           printf "\nChart last updated - ${currentDate}" >> README.md
       - run: cat README-2.md >> README.md
-        name: Update workflow yaml file
-      - run: |
-          python generate_random_workflow.py > rating-yaml.txt
-          YAML=$(cat rating-yaml.txt)
-          echo "::set-output name=yaml::$YAML"
-      - run: cat rating-yaml.txt > .github/workflows/rating-chart.yml
+#        name: Update workflow yaml file
+#      - run: |
+#          python generate_random_workflow.py > rating-yaml.txt
+#          YAML=$(cat rating-yaml.txt)
+#          echo "::set-output name=yaml::$YAML"
+#      - run: cat rating-yaml.txt > .github/workflows/rating-chart.yml
       - id: changed
         run: git diff --exit-code
         continue-on-error: true
@@ -43,9 +43,9 @@ jobs:
         with:
           author_name: Aditya Pal
           author_email: aditya.pal.science@gmail.com
-          message: "Auto updating my readme and workflow!"
-          add: "README.md .github/workflows/rating-chart.yml"
-          force: true
+          message: "Auto updating my readme!"
+          add: "README.md"
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
