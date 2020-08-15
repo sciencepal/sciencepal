@@ -8,16 +8,16 @@ jobs:
   ratings-chart:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-#         with:
-#           token: ${{ secrets.GH_TOKEN }}
-      - name: Setup Python
+      - uses: actions/checkout@master
+        with:
+          token: ${{ secrets.GH_TOKEN }}
+        name: Setup Python
       - uses: actions/setup-python@v2
         with:
           python-version: 3.7
         name: Install dependencies
       - run: pip install -r requirements.txt
-      - name: Create Chart
+        name: Create Chart
       - run: |
           python rating_chart.py > chart.txt
           CHART=$(cat chart.txt)
@@ -28,7 +28,7 @@ jobs:
           currentDate=`env TZ=Asia/Kolkata date`
           printf "\nChart last updated - ${currentDate}" >> README.md
       - run: cat README-2.md >> README.md
-      - name: Update workflow yaml file
+        name: Update workflow yaml file
       - run: |
           python generate_random_workflow.py > rating-yaml.txt
           YAML=$(cat rating-yaml.txt)
@@ -65,4 +65,4 @@ jobs:
 #       - if: ${{ steps.changed.outcome == 'failure' }}
 #         uses: ad-m/github-push-action@master
 #         with:
-#           repo-token: ${{ secrets.GH_TOKEN }}
+#           github_token: ${{ secrets.GH_TOKEN }}
