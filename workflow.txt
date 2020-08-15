@@ -40,11 +40,8 @@ jobs:
         name: Commit changes
       - if: ${{ steps.changed.outcome == 'failure' }}
         run: |
-          git add README.md
+          git add README.md .github/workflows/rating-chart.yml
           git config --local user.name "Aditya Pal"
           git config --local user.email aditya.pal.science@gmail.com
           git commit --message 'Auto updating my readme and workflow!'
           git push -u origin master
-          git add .github/workflows/rating-chart.yml
-          git commit --message 'Auto updating my readme and workflow!'
-          git push
