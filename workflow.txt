@@ -1,4 +1,8 @@
-name: Update Readme.md with chess.com ascii graph
+# please create a new token github.com/settings/tokens/new .
+# give repo read write and workflow permissions to the token and store its value
+# add the token as a repo secret with key GH_TOKEN_1 and value equal to token value stored above
+
+name: Update Readme ascii graph and workflow with random cron interval
 on:
   push:
     branches: master
