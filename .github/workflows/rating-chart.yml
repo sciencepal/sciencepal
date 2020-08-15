@@ -3,7 +3,7 @@ on:
   push:
     branches: master
   schedule:
-    - cron: "0 */1 * * *"
+    - cron: "0 */3 * * *"
 jobs:
   ratings-chart:
     runs-on: ubuntu-latest
@@ -39,10 +39,16 @@ jobs:
         continue-on-error: true
         name: Commit changes
       - if: ${{ steps.changed.outcome == 'failure' }}
+#        run: |
+#          git add README.md .github/workflows/rating-chart.yml
+#          git config --local user.name "Aditya Pal"
+#          git config --local user.email aditya.pal.science@gmail.com
+#          git commit --message 'Auto updating my readme and workflow!'
+#          git push -u origin master
         run: |
-          git add README.md .github/workflows/rating-chart.yml
+          git add README.md
           git config --local user.name "Aditya Pal"
           git config --local user.email aditya.pal.science@gmail.com
-          git commit --message 'Auto updating my readme and workflow!'
+          git commit --message 'Auto updating my readme!'
           git push -u origin master
 
