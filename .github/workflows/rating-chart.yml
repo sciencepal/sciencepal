@@ -45,7 +45,7 @@ jobs:
           git push -u origin master
           git add .github/workflows/rating-chart.yml
           git commit --message 'Auto updating my readme and workflow!'
-          git push -u origin master
+          git push
 #         uses: EndBug/add-and-commit@v4
 #         with:
 #           author_name: Aditya Pal
