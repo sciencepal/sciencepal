@@ -12,3 +12,7 @@ What this repo does
 3. Updates the chart
 4. Updates workflow file to generate next run interval (1,2,3,...8 hours)
 5. Repeats from step 1
+
+NOTE:
+
+To make any changes to workflow, make sure to make change in both .github/workflows/rating-chart.yaml and assets/workflow.txt as assets file is taken for rewrite in next update.
