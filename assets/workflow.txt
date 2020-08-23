@@ -26,10 +26,10 @@ jobs:
       - run: pip install -r requirements.txt
         name: Create Chart
       - run: |
-          python rating_chart.py > chart.txt
+          python codes/rating_chart.py > chart.txt
           CHART=$(cat chart.txt)
           echo "::set-output name=chart::$CHART"
-      - run: cat README-1.md > README.md
+      - run: cat assets/README-1.md > README.md
       - run: cat chart.txt >> README.md
       - run: |
           currentDate=`env TZ=Asia/Kolkata date`
@@ -37,7 +37,7 @@ jobs:
       - run: cat README-2.md >> README.md
         name: Update workflow yaml file
       - run: |
-          python generate_random_workflow.py > rating-yaml.txt
+          python codes/generate_random_workflow.py > rating-yaml.txt
           YAML=$(cat rating-yaml.txt)
           echo "::set-output name=yaml::$YAML"
       - run: cat rating-yaml.txt > .github/workflows/rating-chart.yml
