@@ -34,7 +34,7 @@ jobs:
       - run: |
           currentDate=`env TZ=Asia/Kolkata date`
           printf "\nChart last updated - ${currentDate}" >> README.md
-      - run: cat README-2.md >> README.md
+      - run: cat assets/README-2.md >> README.md
         name: Update workflow yaml file
       - run: |
           python codes/generate_random_workflow.py > rating-yaml.txt
