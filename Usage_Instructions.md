@@ -16,4 +16,4 @@ What this repo does
 NOTE:
 
 To make any changes to workflow, make sure to make change in both .github/workflows/rating-chart.yaml and assets/workflow.txt as assets file is taken for rewrite in next update.
-To make changes to the generic README, make changes in README-1.md as required. 
+To make changes to the generic README, make changes in assets/README-1.md as required. 
