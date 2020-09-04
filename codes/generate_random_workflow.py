@@ -11,7 +11,7 @@ newCron = cron_line.format(prevNo=randNo)
 
 for prevNum in range (1, 9):
   prevCron = cron_line.format(prevNo=prevNum)
-  if wf.find(prevCon) != -1:
+  if wf.find(prevCron) != -1:
     wf.replace(prevCron, newCron)
     break
 print (wf)
