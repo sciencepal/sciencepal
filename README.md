@@ -59,6 +59,6 @@
  1393.06  ┤                  ╰╯  ╰╯    ╰╮│
  1388.00  ┤                             ╰╯
 
-Chart last updated - Sun Sep  6 03:48:10 IST 2020  
+Chart last updated - Sun Sep  6 05:35:25 IST 2020  
   ```
   
