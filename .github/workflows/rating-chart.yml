@@ -10,7 +10,7 @@ on:
       - README.md
       - .github/workflows/rating-chart.yml
   schedule:
-    - cron: "0 */1 * * *"
+    - cron: "0 */5 * * *"
 jobs:
   ratings-chart:
     runs-on: ubuntu-latest
@@ -55,6 +55,7 @@ jobs:
         env:
 #          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN_1 }}
+
 
 
 
