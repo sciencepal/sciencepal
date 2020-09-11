@@ -10,7 +10,7 @@ What this repo does
 1. Fetches chess.com results of my last 100 games
 2. Creates an Ascii chart of the results
 3. Updates the chart
-4. Updates workflow file to generate next run interval (1,2,3,...8 hours)
+4. Updates workflow file to generate next run interval randomly (1 - 8 hours)
 5. Repeats from step 1
 
 NOTE:
