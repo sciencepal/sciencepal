@@ -14,4 +14,4 @@ for prevNum in range (1, 9):
   if wf.find(prevCron) != -1:
     wf = wf.replace(prevCron, newCron)
     break
-print (wf)
+print (wf[:-1])
