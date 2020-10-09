@@ -59,6 +59,6 @@
  1407.12  ┤╰╯                                                                                      ╰╯
  1403.00  ┤
 
-Chart last updated - Fri Oct  9 06:12:31 IST 2020  
+Chart last updated - Fri Oct  9 13:40:40 IST 2020  
   ```
   
