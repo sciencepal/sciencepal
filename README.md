@@ -1,7 +1,7 @@
   ### Hello World!  <img src="https://github.com/sciencepal/sciencepal/blob/master/assets/Hi.gif" width="29px">
   [![Visits Badge](https://badges.pufler.dev/visits/sciencepal/sciencepal)](https://badges.pufler.dev/visits/sciencepal/sciencepal)
   
-  - 🔭 I’m currently working in Goldman Sachs as a Software Developer
+  - 🔭 I’m currently working as a Software Developer in Bengaluru, India
   - 🌱 I’m currently learning Machine Learning and Big Data
   - 💬 Ask me about multiplayer FPS gaming, chess and Tintin comics
   - 😄 Pronouns: He / Him
@@ -59,6 +59,6 @@
  1404.94  ┼─╯                          ╰╯╰╯            ╰╯
  1401.00  ┤
 
-Chart last updated - Fri Nov 27 19:41:39 IST 2020  
+Chart last updated - Fri Nov 27 19:57:40 IST 2020  
   ```
   
