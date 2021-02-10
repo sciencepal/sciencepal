@@ -15,4 +15,4 @@ What this repo does
 
 NOTE:
 
-To make changes to the generic README, make changes in assets/README-1.md as required. 
+To make changes to the generic README, make changes in assets/README-1.md as required. Making changes in README.md will not work as this file is overwritten every workflow.
