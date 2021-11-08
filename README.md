@@ -58,6 +58,6 @@
  1408.75  ┤                              ╰╯╰╯╰╯
  1403.00  ┤
 
-Chart last updated - Tue Nov  9 02:40:38 IST 2021  
+Chart last updated - Tue Nov  9 03:43:55 IST 2021  
   ```
   
