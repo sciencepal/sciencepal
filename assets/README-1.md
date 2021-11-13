@@ -6,7 +6,7 @@
   
   - 🔭 I’m currently working as a Software Developer in Bengaluru, India
   - 🌱 I’m currently learning Machine Learning and Big Data
-  - 💬 Ask me about multiplayer FPS gaming, chess and Tintin comics
+  - 💬 Ask me about [Geoguessr](https://youtu.be/9XFyngt1dk0?t=1268), Chess and Tintin comics
   - 😄 Pronouns: He / Him
   - ⚡ Fun fact: My name is an anagram of "I Play Data"
   
