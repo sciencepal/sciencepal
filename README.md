@@ -58,6 +58,6 @@
  1502.12  ┤                                            ╰╯
  1497.00  ┤
 
-Chart last updated - Fri Dec  2 01:33:57 IST 2022  
+Chart last updated - Fri Dec  2 02:32:42 IST 2022  
   ```
   
