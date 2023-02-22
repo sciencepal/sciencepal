@@ -58,6 +58,6 @@
  1469.00  ┤  ╰─╯
  1459.00  ┤
 
-Chart last updated - Wed Feb 22 17:33:48 IST 2023  
+Chart last updated - Wed Feb 22 20:31:50 IST 2023  
   ```
   
