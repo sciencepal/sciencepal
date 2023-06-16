@@ -8,7 +8,7 @@ pylint = "*"
 black = "*"
 
 [packages]
-requests = "==2.24.0"
+requests = "==2.31.0"
 beautifulsoup4 = "==4.6.3"
 certifi = "==2022.12.7"
 chardet = "==3.0.4"
