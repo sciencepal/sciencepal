@@ -34,7 +34,7 @@
   
   [![trophy](https://github-profile-trophy.vercel.app/?username=sciencepal&theme=juicyfresh&no-frame=true&row=1&&margin-w=20&no-bg=true)](https://github-profile-trophy.vercel.app/?username=sciencepal&theme=juicyfresh&no-frame=true&row=1&&margin-w=20&no-bg=true)
   
-  ##### I am currently aiming to reach ELO 1500 blitz on chess.com ⚡. Here is an ascii tracker of my 100 previous chess.com blitz games.
+  ##### I am currently aiming to reach ELO 1800 blitz on chess.com ⚡. Here is an ascii tracker of my 100 previous chess.com blitz games.
 
   ```
   # ♟︎ Chess.com Ratings Chart #
