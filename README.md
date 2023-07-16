@@ -12,7 +12,7 @@
   
   #### 📫 How to reach me:
   
-  [<img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg" width="3.5%"/>](https://steamcommunity.com/id/mongocds/)  &nbsp; [<img src="https://github.com/sciencepal/sciencepal/blob/master/assets/discord-round.svg" width="3.5%"/>](https://discord.gg/MnUUbHe)  &nbsp; [<img src="https://img.icons8.com/color/48/000000/twitter.png" width="3.5%"/>](https://twitter.com/sciencepal)  &nbsp; [<img src="https://img.icons8.com/color/48/000000/linkedin.png" width="3.5%"/>](https://www.linkedin.com/in/adityapal1/)  &nbsp; [<img src="https://img.icons8.com/fluent/48/000000/facebook-new.png" width="3.5%"/>](https://www.facebook.com/sciencepal/)  &nbsp; [<img src="https://img.icons8.com/fluent/48/000000/instagram-new.png" width="3.5%"/>](https://www.instagram.com/aditya_sciencepal/)  &nbsp; <a href="mailto:aditya.pal.science@gmail.com"> <img src="https://img.icons8.com/fluent/48/000000/gmail.png" width="3.5%"/>
+  [<img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg" width="3.5%"/>](https://steamcommunity.com/id/mongocds/)  &nbsp; [<img src="https://github.com/sciencepal/sciencepal/blob/master/assets/discord-round.svg" width="3.5%"/>](https://discord.gg/MnUUbHe)  &nbsp; [<img src="https://img.icons8.com/color/48/000000/twitter.png" width="3.5%"/>](https://twitter.com/sciencepal)  &nbsp; [<img src="https://img.icons8.com/color/48/000000/linkedin.png" width="3.5%"/>](https://www.linkedin.com/in/adityapal1/)  &nbsp; [<img src="https://img.icons8.com/fluent/48/000000/facebook-new.png" width="3.5%"/>](https://www.facebook.com/aditya.pal23/)  &nbsp; [<img src="https://img.icons8.com/fluent/48/000000/instagram-new.png" width="3.5%"/>](https://www.instagram.com/aditya.pal23/)  &nbsp; <a href="mailto:aditya.pal.science@gmail.com"> <img src="https://img.icons8.com/fluent/48/000000/gmail.png" width="3.5%"/>
   
   #### 👨🏻‍💻 Languages and Tools <br />
   <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png"></code>
@@ -40,24 +40,24 @@
   # ♟︎ Chess.com Ratings Chart #
   
   Blitz Rating
- 1673.00  ┤
- 1665.25  ┼╮╭╮     ╭╮╭─╮
- 1657.50  ┤╰╯╰╮   ╭╯╰╯ ╰╮
- 1649.75  ┤   ╰─╮╭╯     ╰╮
- 1642.00  ┤     ╰╯       ╰╮
- 1634.25  ┤               ╰╮       ╭╮
- 1626.50  ┤                ╰─╮    ╭╯╰─╮    ╭─╮                     ╭╮     ╭╮ ╭╮
- 1618.75  ┤                  ╰╮  ╭╯   ╰╮╭╮╭╯ ╰╮    ╭╮             ╭╯╰╮   ╭╯╰─╯╰╮
- 1611.00  ┤                   ╰╮╭╯     ╰╯╰╯   ╰╮╭╮╭╯╰─╮          ╭╯  ╰╮ ╭╯     ╰╮╭╮╭─╮
- 1603.25  ┤                    ╰╯              ╰╯╰╯   ╰─╮        │    ╰─╯       ╰╯╰╯ ╰╮
- 1595.50  ┤                                             ╰╮      ╭╯                    ╰╮    ╭╮    ╭─╮
- 1587.75  ┤                                              ╰╮╭╮  ╭╯                      ╰╮╭─╮│╰╮  ╭╯ ╰╮
- 1580.00  ┤                                               ╰╯╰╮╭╯                        ╰╯ ╰╯ ╰╮╭╯   ╰╮
- 1572.25  ┤                                                  ╰╯                                ╰╯     ╰╮
- 1564.50  ┤                                                                                            ╰╮╭╮
- 1556.75  ┤                                                                                             ╰╯╰╮╭╮
- 1549.00  ┤                                                                                                ╰╯╰
+ 1673.00  ┤         ╭╮
+ 1664.94  ┤╭╮     ╭╮│╰╮
+ 1656.88  ┼╯╰─╮  ╭╯╰╯ ╰╮
+ 1648.81  ┤   ╰╮╭╯     ╰╮
+ 1640.75  ┤    ╰╯       ╰─╮
+ 1632.69  ┤               ╰╮      ╭╮      ╭╮                             ╭╮
+ 1624.62  ┤                ╰╮    ╭╯╰─╮    │╰╮     ╭╮              ╭╮    ╭╯╰╮╭╮
+ 1616.56  ┤                 ╰╮  ╭╯   ╰╮╭╮╭╯ ╰╮   ╭╯╰╮            ╭╯╰╮  ╭╯  ╰╯╰╮   ╭╮
+ 1608.50  ┤                  ╰──╯     ╰╯╰╯   ╰╮╭─╯  ╰╮          ╭╯  ╰╮╭╯      ╰╮╭─╯╰╮
+ 1600.44  ┤                                   ╰╯     ╰─╮       ╭╯    ╰╯        ╰╯   ╰╮           ╭╮
+ 1592.38  ┤                                            ╰╮     ╭╯                     ╰─╮╭─╮╭╮   ╭╯╰╮
+ 1584.31  ┤                                             ╰╮╭╮ ╭╯                        ╰╯ ╰╯╰╮ ╭╯  ╰╮
+ 1576.25  ┤                                              ╰╯╰─╯                               ╰─╯    ╰─╮
+ 1568.19  ┤                                                                                           ╰╮╭╮
+ 1560.12  ┤                                                                                            ╰╯╰╮╭╮
+ 1552.06  ┤                                                                                               ╰╯╰─
+ 1544.00  ┤
 
-Chart last updated - Sun Jul 16 13:35:26 IST 2023  
+Chart last updated - Sun Jul 16 17:46:51 IST 2023  
   ```
   
