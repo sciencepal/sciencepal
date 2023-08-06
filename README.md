@@ -58,6 +58,6 @@
  1552.06  ┤                                                                                               ╰╯╰─
  1544.00  ┤
 
-Chart last updated - Sun Aug  6 18:32:09 IST 2023  
+Chart last updated - Sun Aug  6 21:36:37 IST 2023  
   ```
   
