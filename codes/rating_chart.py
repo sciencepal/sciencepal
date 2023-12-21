@@ -10,10 +10,12 @@ USERNAME = 'sciencepal'
 TIME_CLASS = 'blitz'
 RULES = 'chess' #chess960 and other variants possible here
 NGAMES = 100
+headers = {"User-Agent": "ChessRatingRefresh/1.0 aditya.pal.science@gmail.com"}
 ARCHIVES_URL = 'https://api.chess.com/pub/player/{user}/games/archives'
 
 def get_archives() -> list:
-    archives_dict = requests.get(ARCHIVES_URL.format(user=USERNAME)).json()
+    archives_dict = requests.get(url=ARCHIVES_URL.format(user=USERNAME), headers=headers).json()
+    # print (archives_dict)
     monthly_archives = archives_dict.get('archives')
     if monthly_archives is None:
         return 
@@ -21,7 +23,7 @@ def get_archives() -> list:
 
 
 def get_filtered_games(monthly_archive_url: str) -> list:
-    games_dict = requests.get(monthly_archive_url).json()
+    games_dict = requests.get(url=monthly_archive_url, headers=headers).json()
     monthly_games = games_dict.get('games')
     if monthly_games is None:
         return
