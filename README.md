@@ -58,6 +58,6 @@
  1378.56  ┤      ╰╯                     ╰╯
  1371.00  ┤
 
-Chart last updated - Tue May 21 20:18:02 EDT 2024  
+Chart last updated - Wed May 22 02:03:15 EDT 2024  
   ```
   
