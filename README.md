@@ -4,11 +4,10 @@
 <img src="https://github.com/sciencepal/sciencepal/blob/master/assets/life_balance.gif" alt="side Image" align="right" width="200" height="auto" />
 <a href="https://ko-fi.com/sciencepal"> <img src="https://media3.giphy.com/media/ZEB6yFbLnhyQf7g3hn/giphy.gif" alt="side Gif" align="right" width="150" height="auto"/> </a>
   
-  - 🔭 I’m currently a Graduate Research student in ML at Georgia Tech.
-  - 🌱 I’m currently learning Machine Learning and Big Data
-  - 💬 Ask me about [Geoguessr](https://youtu.be/9XFyngt1dk0?t=1268), [Chess](https://www.chess.com/member/sciencepal) and Tintin comics
-  - 😄 Pronouns: He / Him
-  - ⚡ Fun fact: My name is an anagram of "I Play Data"
+  - 👋 Hi, I’m @MrSinaMaleki
+  - 👀 I’m interested in Programming
+  - 🌱 I’m currently learning Python & Django
+  - 💞️ I’m looking to collaborate on some Django projects
   
   #### 📫 How to reach me:
   
@@ -31,33 +30,11 @@
   <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/scikit-learn/scikit-learn.png"></code>
   
   [![Stats](https://github-readme-stats.vercel.app/api?username=sciencepal&show_icons=true&theme=radical)](https://github-readme-stats.vercel.app/api?username=sciencepal&show_icons=true&theme=radical)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="https://github.com/sciencepal/sciencepal/blob/master/assets/saved.gif" width="195">
-  
-  [![trophy](https://github-profile-trophy.vercel.app/?username=sciencepal&theme=juicyfresh&no-frame=true&row=1&&margin-w=20&no-bg=true)](https://github-profile-trophy.vercel.app/?username=sciencepal&theme=juicyfresh&no-frame=true&row=1&&margin-w=20&no-bg=true)
-  
-  ##### I am currently aiming to reach ELO 1800 blitz on chess.com ⚡. Here is an ascii tracker of my 100 previous chess.com blitz games.
 
-  ```
-  # ♟︎ Chess.com Ratings Chart #
-  
-  Blitz Rating
- 1492.00  ┤                                   ╭╮╭╮
- 1484.62  ┤                                  ╭╯│││╭─╮   ╭╮
- 1477.25  ┤                                ╭╮│ ╰╯╰╯ ╰╮╭─╯╰╮      ╭╮
- 1469.88  ┤             ╭╮╭╮╭╮╭──╮╭╮      ╭╯╰╯       ││   ╰╮    ╭╯╰─╮
- 1462.50  ┤            ╭╯╰╯╰╯╰╯  ╰╯╰╮ ╭╮  │          ╰╯    ╰╮   │   ╰╮ ╭╮╭╮
- 1455.12  ┼╮           │            ╰─╯╰╮╭╯                 ╰─╮╭╯    ╰╮│╰╯╰╮╭─╮
- 1447.75  ┤╰╮     ╭╮  ╭╯                ╰╯                    ╰╯      ╰╯   ╰╯ ╰╮
- 1440.38  ┤ ╰╮╭╮ ╭╯╰╮╭╯                                                        ╰╮     ╭╮
- 1433.00  ┤  ╰╯╰╮│  ╰╯                                                          ╰╮╭╮╭╮│╰╮
- 1425.62  ┤     ╰╯                                                               ╰╯╰╯╰╯ ╰╮              ╭╮
- 1418.25  ┤                                                                              ╰╮╭╮       ╭╮╭╮││
- 1410.88  ┤                                                                               ╰╯╰╮╭╮╭╮  │╰╯╰╯╰╮
- 1403.50  ┤                                                                                  ╰╯╰╯╰╮╭╯     ╰╮
- 1396.12  ┤                                                                                       ╰╯       │ ╭
- 1388.75  ┤                                                                                                ╰╮│
- 1381.38  ┤                                                                                                 ╰╯
- 1374.00  ┤
 
-Chart last updated - Thu Nov  7 03:08:12 EST 2024  
-  ```
-  
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=MrSinaMaleki&repo=Pharmacy&theme=transparent)](https://github.com/MrSinaMaleki/Pharmacy)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=MrSinaMaleki&repo=Online-coffee-shop&theme=transparent)](https://github.com/MrSinaMaleki/Online-coffee-shop)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=MrSinaMaleki&repo=Music-Scraper-Django&theme=transparent)](https://github.com/MrSinaMaleki/Music-Scraper-Django)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=MrSinaMaleki&repo=Torobche&theme=transparent)](https://github.com/MrSinaMaleki/Music-Scraper-Django)
+
+
