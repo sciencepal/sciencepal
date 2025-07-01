@@ -42,6 +42,6 @@
   Blitz Rating
 
 
-Chart last updated - Mon Jun 30 16:02:20 EDT 2025  
+Chart last updated - Mon Jun 30 20:23:57 EDT 2025  
   ```
   
