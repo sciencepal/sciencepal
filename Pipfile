@@ -10,7 +10,7 @@ black = "*"
 [packages]
 requests = "==2.32.5"
 certifi = "==2026.1.4"
-chardet = "==5.2.0"
+chardet = "==6.0.0.post1"
 idna = "==3.11"
 urllib3 = "==2.6.3"
 wrapt = "==2.1.1"
