@@ -10,7 +10,7 @@ on:
       - README.md
       - .github/workflows/rating-chart.yml
   schedule:
-    - cron: "0 */3 * * *"
+    - cron: "0 */1 * * *"
 jobs:
   ratings-chart:
     runs-on: ubuntu-latest
